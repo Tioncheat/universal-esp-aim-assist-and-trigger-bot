@@ -1,0 +1,25 @@
+-- Make sure to edit the values below in a seperated script
+getgenv().priorityPart = "Head"
+getgenv().reactionDelay = 0 -- the lower the faster
+getgenv().sameTeam = true
+getgenv().toggleKey = "X" -- bind it to a familiar key, you will be using this alot
+getgenv().esp = true -- For esp
+getgenv().espColour = Color3.new(0,255,0)
+getgenv().throughwalls = false -- track through walls
+--
+getgenv().triggerbot = true
+getgenv().triggerBotDelay = 0
+-- edit values below to change tracking area's size
+getgenv().offsetSizeX = 0
+getgenv().offsetSizeY = 0
+getgenv().scaleSizeX = 0.1
+getgenv().scaleSizeY = 0.1
+--edit values below to change tracking area's position
+getgenv().offsetPosX = 0
+getgenv().offsetPosY = 0
+getgenv().scalePosX = 0.5
+getgenv().scalePosY = 0.5
+
+getgenv().trackingColour = Color3.new(0,255,0)
+getgenv().trackingThickness = 1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tioncheat/universal-esp-aim-assist-and-trigger-bot/main/main"))()
